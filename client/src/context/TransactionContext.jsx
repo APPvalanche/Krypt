@@ -87,7 +87,7 @@ export const TransactionProvider = ({ children }) => {
             to: addressTo,
             gas: "0x5208", // 21000 GWEI
             value: parsedAmount._hex, //0.00001
-          },
+          }
         ],
       });
 
