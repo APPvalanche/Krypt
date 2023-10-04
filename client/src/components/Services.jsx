@@ -26,26 +26,26 @@ const Services = () => {
             continue to improve
           </h1>
         </div>
-      </div>
-      <div className="flex-1 flex flex-col justify-start items-center">
-        <ServiceCard
-          color="bg-[#2952E3]"
-          title="Security Guaranteed"
-          icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-          subtitle="Security is guaranteed. We always maintain privacy and maintain quality of our services."
-        />
-        <ServiceCard
-          color="bg-[#8945f8]"
-          title="Best exchange rates"
-          icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="Security is guaranteed. We always maintain privacy and maintain quality of our services."
-        />
-        <ServiceCard
-          color="bg-[#F84550]"
-          title="Fastest transactions"
-          icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-          subtitle="Security is guaranteed. We always maintain privacy and maintain quality of our services."
-        />
+        <div className="flex-1 flex flex-col justify-start items-center">
+          <ServiceCard
+            color="bg-[#2952E3]"
+            title="Security Guaranteed"
+            icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
+            subtitle="Security is guaranteed. We always maintain privacy and maintain quality of our services."
+          />
+          <ServiceCard
+            color="bg-[#8945f8]"
+            title="Best exchange rates"
+            icon={<BiSearchAlt fontSize={21} className="text-white" />}
+            subtitle="Security is guaranteed. We always maintain privacy and maintain quality of our services."
+          />
+          <ServiceCard
+            color="bg-[#F84550]"
+            title="Fastest transactions"
+            icon={<RiHeart2Fill fontSize={21} className="text-white" />}
+            subtitle="Security is guaranteed. We always maintain privacy and maintain quality of our services."
+          />
+        </div>
       </div>
     </div>
   );
